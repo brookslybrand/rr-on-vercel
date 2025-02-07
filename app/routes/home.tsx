@@ -9,7 +9,7 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export function loader({ context }: Route.LoaderArgs) {
-  return { message: "Hello from Vercel" };
+  return { message: "Bla!" };
 }
 
 export default function Home({ loaderData }: Route.ComponentProps) {
